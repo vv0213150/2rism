@@ -1,0 +1,46 @@
+.card {
+    font-family: "Poppins", serif;
+}
+.card img {
+    padding-bottom: 16px;
+}
+.card h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #161414;
+}
+.card h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #979797;
+}
+
+.grade {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    justify-content: space-between;
+}
+.grade p {
+    display: flex;
+    align-items: center;
+}
+
+.gradeTwo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #7B61FF;
+    gap: 4px;
+}
+.gradeTwo img {
+    padding-left: 102px;
+}
+
+.text p{
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+}

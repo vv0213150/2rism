@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    padding: 30px 110px;
+    background-color: black;
+    color: #fff;
+    justify-content: space-between;
+    font-family: "Poppins", serif;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 29px;
+    cursor: pointer;
+}
+.logo h1:hover {
+    color: #ffffff98;
+}
+
+.icon {
+    font-size: 16px;
+    color: #7B61FF;
+    vertical-align: top;
+}
+
+.infonav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.infonav ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.646);
+    cursor: pointer;
+}
+.infonav ul li:hover {
+    color: rgba(255, 255, 255, 0.282);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.profile p {
+    width:87px;
+}
+.profile span {
+    color: rgba(255, 255, 255, 0.646);
+}
+.profile img {
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}

@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    gap: 32px;
+    Font-family: "Poppins", serif
+}
+
+.info {
+    width: 316px;
+}
+.info h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #161414;
+    padding-bottom: 16px;
+}
+.info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #979797;
+    line-height: 24px;
+    padding-bottom: 132px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.block p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}

@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    padding: 0 190px 120px;
+    gap: 32px;
+    Font-family: "Poppins", serif
+}
+.main img {
+    border-radius: 24px;
+}
+
+.aboutUs h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #161414;
+    padding-bottom: 32px;
+    margin-right: 20px;
+}
+.aboutUs p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #5B5B5B;
+    padding-bottom: 32px;
+}
+.aboutUs button {
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 12px;
+    padding: 12px 10px;
+    background-color: #F6F4FF;
+    border: none;
+    color: #7B61FF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.aboutUs button:hover {
+    background-color: #7b61ff77;
+    color: #F6F4FF;
+}

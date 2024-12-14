@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    padding: 0 110px;
+    justify-content: space-between;
+    Font-family: "Poppins", serif
+}
+.content h1 {
+    font-weight: 600;
+    color: #161414;
+}
+.content button {
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 12px;
+    padding: 1px 10px;
+    background-color: #F6F4FF;
+    border: none;
+    color: #7B61FF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.content button:hover {
+    background-color: #7b61ff77;
+    color: #F6F4FF;
+}
