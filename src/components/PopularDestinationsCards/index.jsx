@@ -14,7 +14,7 @@ const PopularDestinationsCard = (props) => {
               <div className={cls.gradeTwo}>
                 {props.icon} 
                 <div className={cls.text}><p>{props.p_text}</p></div>
-                <div><img src={props.images}/></div>
+                <div><img src={props.images} alt="img"/></div>
               </div>
             </div>
         </div>
