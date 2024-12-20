@@ -5,7 +5,7 @@ import cls from './index.module.css'
 const TravelTips = (props) => {
   return (
     <div className={cls.container}>
-      <img width='300px' height='380px' src={props.imgTwo} alt="img"/>
+      <img width='300px' height='380px' src={props.imgTwo} alt="TravelTips"/>
       <div className={cls.info}>
         <h1>{props.title}</h1>
         <p>{props.infoText}</p>
