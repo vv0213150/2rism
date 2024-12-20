@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from '../../components/layout/Nav'
 import Header from '../../components/layout/Header'
 import PopularDestinationsCard from '../../components/PopularDestinationsCards'
 import { sea, nature, home, railway, sight, city, img, imgTwo, imgThree, imgFour, grade, gradeTwo, gradeThree, gradeFour, ActivitiesImg, Climbing, Skiing, Hiking, iceCream, BrooklynBridge } from '../../assets/img'
